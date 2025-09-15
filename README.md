@@ -1,4 +1,4 @@
-# 🛒 [Store Project]
+# 🛒 Store Project
 
 ## 📌 Sobre o Projeto
 
