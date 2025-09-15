@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <title>Store</title>
+
+    <link rel="icon" href="./images/icone1.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">Store</div>
+
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+                <li class="login">Login</li>
+                <li id="logout">Logout</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="circulos">
+            <div class="circulo ativo"></div>
+            <div class="circulo ativo"></div>
+            <div class="circulo ativo"></div>
+            <div class="circulo ativo"></div>
+        </div>
+
+        <div class="lista">
+            <div class="item ativo">
+                <div class="img-produto">
+                    <img src="./images/Fones.png" alt="fone-de-ouvido">
+                </div>
+                <div class="informacoes">
+                    <p class="tag-produto">Som Premium</p>
+                    <p class="nome-produto">Air Pods Max</p>
+                    <p class="desc-produto">Experimente o som em sua forma mais pura. Cancelamento de ruido adaptativo, qualidade de audio exepcional e design ergonomico para o maximo conforto. Sua musica nunca soou tao bem.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="img-produto">
+                    <img src="./images/Relogio.png" alt="relogio">
+                </div>
+                <div class="informacoes">
+                    <p class="tag-produto">Nova Lançamento</p>
+                    <p class="nome-produto">Apple Watch Series 10</p>
+                    <p class="desc-produto"> O smartwatch mais avancado do mercado. Monitoramento completo da saude, GPS integrado, tela AMOLED de alta resolucao e bateria de longa duracao. Perfeito para acompanhar seu estilo  de vida ativo.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="img-produto">
+                    <img src="./images/Oculos.png" alt="Oculos">
+                </div>
+                <div class="informacoes">
+                    <p class="tag-produto">Alta Performance</p>
+                    <p class="nome-produto">Vision Pro</p>
+                    <p class="desc-produto">Realidade aumentada imersiva com a Apple Vision Pro: inovacao ao alcance dos olhos.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="setas">
+            <button class="btn-seta" id="anterior">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                </svg>
+            </button>
+
+            <button class="btn-seta" id="proximo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicadores">
+            <div class="numeros">01</div>
+            <div class="dots">
+                <div class="dot ativo"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./home-script.js"></script>
+</html>
